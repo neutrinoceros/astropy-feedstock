@@ -12,7 +12,7 @@ source:
   sha256: c8f254322295b1b8cf24303d6f155bf7efdb6c1282882b966ce3040eff8c53c5
 
 build:
-  number: 0
+  number: 1
   {% if py < min_py %}
   skip: true
   {% endif %}
