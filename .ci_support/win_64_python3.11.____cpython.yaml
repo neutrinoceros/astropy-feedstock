@@ -1,7 +1,7 @@
 ace:
-- 8.0.2
+- 8.0.5
 c_compiler:
-- vs2019
+- vs2022
 c_stdlib:
 - vs
 channel_sources:
@@ -15,11 +15,11 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.13.* *_cp313
+- 3.11.* *_cpython
 python_min:
 - '3.11'
 target_platform:
 - win-64
 zip_keys:
 - - python
-  - numpy
+  - channel_sources
