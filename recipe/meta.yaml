@@ -10,10 +10,6 @@ package:
 source:
   url: https://pypi.org/packages/source/a/astropy/astropy-{{ version }}.tar.gz
   sha256: 6d128f0005e2c34f70113484468bf9d0e4ca1ee15a279cfd08bdd979d38db0f8
-  patches:
-    # Remove both with 7.1.1
-    - py314_fits_test.patch
-    - jplephem_test.patch
 
 build:
   number: 0
